@@ -13,7 +13,7 @@
 9. [Move](#move)
 10. [Parent](#parent)
 11. [Children](#children)
-12. [Target a Specific Child](#targetspecific)
+12. [Target a Specific Child](#targetaspecific)
 13. [Target Even Elements](#targeteven)
 14. [Last](#last)
 
