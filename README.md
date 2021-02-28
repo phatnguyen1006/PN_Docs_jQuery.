@@ -21,7 +21,7 @@ In this course, you'll learn how to use jQuery to select, remove, clone, and mod
 ```html
 <script>
   $(document).ready(function() {
-    // add Command...
+    
   })
 </srcipt>
 ```
@@ -37,7 +37,7 @@ When we want to adjust a selector:
 
 We wanna add class "animated bounce" to a selector.
 
-```script
+```html
 
   $(document).addClass("animated bounce");
   
@@ -47,7 +47,7 @@ We wanna add class "animated bounce" to a selector.
 
 We also can remove class "animated bounce" to a selector.
 
-```script
+```html
 
   $(document).removeClass("animated-default");
   
@@ -58,7 +58,7 @@ We also can remove class "animated bounce" to a selector.
 With a CSS:
 When I need change the "color" is "red":
 
-```script
+```html
 
   $(document).css("color","red");
   
@@ -69,14 +69,14 @@ When I need change the "color" is "red":
 Another:
 HTML
 
-```script
+```html
 
   $("selector").html("<h2>Contents</h2>");
   
 ```
 
 or we can change contents inside a tag element.
-```script
+```html
 
   $("selector").text("contents");
   
@@ -85,8 +85,8 @@ or we can change contents inside a tag element.
 ## ChangeProp
 
 Example:
-```script
+```html
 
-  $("selector").prop("disabled",true);
+  $("selector").prop("disabled", true);
   
 ```
