@@ -1,26 +1,26 @@
 # PN_Docs_jQuery.
 
-## Table of contents:
+## Table of Contents:
 
 1.[What's jQuery?](#jQuery)
 2.[Selector](#Selector)
-3.[addClass()](#addClass)
-4.[removeClass()](#removeClass)
+3.[AddClass](#addClass)
+4.[RemoveClass()](#removeClass)
 5.[ChangeCSS](#changeCss)
 6.[ChangeHTML](#changeHTML)
 7.[ChangeProp](#changeProp)
 
 
-## jQuery
+## What's jQuery
 
 ## Selector
 
-## addClass
+## AddClass
 
-## removeClass
+## RemoveClass
 
-## changeCss
+## ChangeCSS
 
-## changeHTML
+## ChangeHTML
 
-## changeProp
+## ChangeProp
