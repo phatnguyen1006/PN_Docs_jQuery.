@@ -1,6 +1,6 @@
 # PN_Docs_jQuery.
 
-## List:
+## Table of contents:
 
 1.[What's jQuery?](#jQuery)
 2.[Selector](#Selector)
