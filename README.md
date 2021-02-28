@@ -26,7 +26,11 @@ In 2006 when it was released, all major browsers handled JavaScript slightly dif
 In this course, you'll learn how to use jQuery to select, remove, clone, and modify different elements on the page.
 
 ```html
-<script> $(document).ready(function() {}); </srcipt>
+<script>
+  $(document).ready(function() {
+    // add Command...
+  }); 
+</srcipt>
 ```
 
 ## Selector
@@ -61,7 +65,7 @@ We also can remove class "animated bounce" to a selector.
 With a CSS:
 When I need change the "color" is "red":
 
-```html
+```javascript
 
   $(document).css("color","red");
   
@@ -72,14 +76,14 @@ When I need change the "color" is "red":
 Another:
 HTML
 
-```html
+```javascript
 
   $("selector").html("<h2>Contents</h2>");
   
 ```
 
 or we can change contents inside a tag element.
-```html
+```javascript
 
   $("selector").text("contents");
   
@@ -88,7 +92,7 @@ or we can change contents inside a tag element.
 ## ChangeProp
 
 Example:
-```html
+```javascript
 
   $("selector").prop("disabled", true);
   
@@ -98,7 +102,7 @@ Example:
 
 Now let's remove an HTML element from your page using jQuery.
 
-```html
+```javascript
   
   $("selector").remove()
 
@@ -111,7 +115,7 @@ jQuery has a function called appendTo() that allows you to select HTML elements 
 
 For examples, we wanna move "#target" from "#left" to "#right".  ...// "#left" and "#right" is "<div>" tags element.
   
-```html
+```javascript
   
   $("#target").appendTo("#right");
 
@@ -123,7 +127,7 @@ jQuery has a function called clone() that makes a copy of an element.
 
 For example, if we wanted to copy "#target" from our "#left" to our "#right", we would use:
 
-```html
+```javascript
   
   $("#target").clone().appendTo("#right")
 
@@ -135,7 +139,7 @@ Every HTML element has a parent element from which it inherits properties.
 
 jQuery has a function called parent() that allows you to access the parent of whichever element you've selected.
 
-```html
+```javascript
 
   $("target").parent().css("background-color","blue");
 
@@ -146,7 +150,7 @@ jQuery has a function called parent() that allows you to access the parent of wh
 Of courses!
 jQuery has a function called children() that allows you to access the children of whichever element you've selected.
 
-```html
+```javascript
 
   $("target").children().css("color","red");
 
@@ -160,7 +164,7 @@ Fortunately, jQuery has some other tricks for targeting the right elements.
 
 jQuery uses CSS Selectors to target elements. The target:nth-child(n) CSS selector allows you to select all the nth elements with the target class or element type.
 
-```html
+```javascript
 
   $(".target:nth-child(2)").addClass("animated bounce");
 
@@ -174,7 +178,7 @@ Note that jQuery is zero-indexed which means the first element in a selection ha
 
 Here's how you would target all the odd elements with class target and give them classes:
 
-```html
+```javascript
 
   $(".target:odd").addClass("animated shake");
 
@@ -188,13 +192,13 @@ jQuery can target the body element as well.
 
 Here's how we would make the entire body fade out: 
 
-```html
+```javascript
 $("body").addClass("animated fadeOut");
 ```
 
 But let's do something more dramatic. Add the classes animated and hinge to your body element.
 
-```html
+```javascript
 
   $("body").addClass("animated hinge");
 
