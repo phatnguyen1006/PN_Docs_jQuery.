@@ -13,8 +13,8 @@
 9. [Move](#move)
 10. [Parent](#parent)
 11. [Children](#children)
-12. [Target a Specific Child](#targetaspecific)
-13. [Target Even Elements](#targeteven)
+12. [Target A Specific Child](#target-a-specific-child)
+13. [Target Even Elements](#target-even-element)
 14. [Last](#last)
 
 ## jQuery
@@ -26,11 +26,7 @@ In 2006 when it was released, all major browsers handled JavaScript slightly dif
 In this course, you'll learn how to use jQuery to select, remove, clone, and modify different elements on the page.
 
 ```html
-<script>
-  $(document).ready(function() {
-    
-  });
-</srcipt>
+<script> $(document).ready(function() {}); </srcipt>
 ```
 
 ## Selector
@@ -44,7 +40,7 @@ When we want to adjust a selector:
 
 We wanna add class "animated bounce" to a selector.
 
-```html
+```javascript
 
   $(document).addClass("animated bounce");
   
@@ -54,7 +50,7 @@ We wanna add class "animated bounce" to a selector.
 
 We also can remove class "animated bounce" to a selector.
 
-```html
+```javascript
 
   $(document).removeClass("animated-default");
   
