@@ -1,5 +1,7 @@
 # PN_Docs_jQuery.
 
+# jQuery HTML
+
 ## List:
 
 1. [jQuery](#jquery)
@@ -203,3 +205,4 @@ But let's do something more dramatic. Add the classes animated and hinge to your
   $("body").addClass("animated hinge");
 
 ```
+----------
