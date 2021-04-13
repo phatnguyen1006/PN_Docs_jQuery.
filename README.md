@@ -27,7 +27,7 @@ In 2006 when it was released, all major browsers handled JavaScript slightly dif
 
 In this course, you'll learn how to use jQuery to select, remove, clone, and modify different elements on the page.
 
-```html
+```bash
 <script>
   $(document).ready(function() {
     // add Command...
